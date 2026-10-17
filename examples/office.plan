@@ -1,0 +1,8 @@
+# Office address plan, reviewed 2026-10
+@parent 10.20.0.0/16
+
+mgmt     10.20.0.0/26     # switches and routers
+dmz      10.20.0.64/27    # public-facing hosts
+web      10.20.1.0/24
+db       10.20.2.0/25
+10.20.3.128/25            # unnamed entries are labelled by their CIDR

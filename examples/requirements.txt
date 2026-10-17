@@ -1,0 +1,7 @@
+# hosts needed per VLAN
+sales        50
+engineering  120
+guest        20
+voip         10
+servers      30
+uplink       2

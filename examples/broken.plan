@@ -1,0 +1,8 @@
+@parent 10.20.0.0/16
+web      10.20.1.0/24
+db       10.20.1.5/24       # host bits set
+web      10.20.2.0/24       # duplicate name
+backup   10.30.0.0/24       # outside the parent
+cache    10.20.1.128/25     # overlaps web
+bogus    10.20.9.0/33       # invalid prefix
+too many fields here please
